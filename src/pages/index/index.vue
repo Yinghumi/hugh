@@ -44,10 +44,10 @@ export default {
           {title:"话剧",image:"/static/images/4.png"},
         ],
         top:[
-          {name:"名称1",role:"角色1",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍1"},
-          {name:"名称2",role:"角色2",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍2"},
-          {name:"名称3",role:"角色3",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍3"},
-          {name:"名称4",role:"角色4",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍4"}
+          {name:"名称1",role:"评论人1",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍1"},
+          {name:"名称2",role:"评论人2",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍2"},
+          {name:"名称3",role:"评论人3",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍3"},
+          {name:"名称4",role:"评论人4",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍4"}
         ],
            imgUrls: [
     'http://www.canyin88.com/uploads/image/2019/04/16/1555378220872933.jpg',
