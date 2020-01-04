@@ -1,5 +1,18 @@
 <template>
   <div>
+     <swiper
+      :indicator-dots="indicatorDots"
+      :autoplay="autoplay"
+      :interval="interval"
+      :duration="duration"
+      style="height:200px"
+    >
+    <block v-for="item in imgUrls" :key="item">
+      <swiper-item>
+        <image :src="item" style="width:100%;"/>
+      </swiper-item>
+    </block>
+  </swiper>
     <i-grid i-class="no-border">
     <i-grid-item @click="goType(grid)" v-for="grid in grids" :key="grid" i-class="no-border">
         <i-grid-icon>
@@ -35,9 +48,19 @@ export default {
           {name:"名称2",role:"角色2",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍2"},
           {name:"名称3",role:"角色3",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍3"},
           {name:"名称4",role:"角色4",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍4"}
-        ]
+        ],
+           imgUrls: [
+    'http://www.canyin88.com/uploads/image/2019/04/16/1555378220872933.jpg',
+    'http://www.canyin88.com/uploads/image/2019/04/15/1555321255843942.jpg',
+    'http://www.canyin88.com/uploads/190415/99ad8154e7332ca96ccb323580b3b8a2_3.jpg'
+      ],
+      indicatorDots: true,
+      autoplay: true,
+      interval: 5000,
+      duration: 1000,
     }
   },
+
 
   methods: {
     goType (type) {
@@ -46,6 +69,7 @@ export default {
       mpvue.navigateTo({url})
     }
   },
+
     
   created () {
   }
