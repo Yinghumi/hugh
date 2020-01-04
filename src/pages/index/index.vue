@@ -50,9 +50,9 @@ export default {
           {name:"名称4",role:"评论人4",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍4"}
         ],
            imgUrls: [
-    'http://www.canyin88.com/uploads/image/2019/04/16/1555378220872933.jpg',
-    'http://www.canyin88.com/uploads/image/2019/04/15/1555321255843942.jpg',
-    'http://www.canyin88.com/uploads/190415/99ad8154e7332ca96ccb323580b3b8a2_3.jpg'
+    'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578137639960&di=1c0c229986364b80ebbbcdba665db048&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F933b3ee259a9196b6b796d9ee9c88a177c06614c3bd35-xkZ0vw_fw658',
+    'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2138540041,3871512787&fm=26&gp=0.jpg',
+    'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578137748150&di=fe6787124f511c662c04dfe005f8b03f&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201603%2F17%2F20160317164103_FEySx.jpeg'
       ],
       indicatorDots: true,
       autoplay: true,

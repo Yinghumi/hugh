@@ -6,8 +6,10 @@
     </view>
     <open-data type="userNickName"></open-data>
     </view>
+    <open-data type="userGender" lang="zh_CN"></open-data>
   </div>
-  
+
+    
 </template>
 
 <script>
