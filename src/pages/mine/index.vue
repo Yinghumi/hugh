@@ -11,8 +11,12 @@
       <i-input :value="reason" @change="changeReason($event)" title="推荐理由" placeholder="请输入推荐理由" maxlength="50" />
     </i-panel>
      <i-button @click="handleClick" type="warning" size="default">我要推荐</i-button>
-    <view class="tips">我们都是胡先生的粉丝，一起来整理他的相关内容吧，采访也算哦~</view>
+     <view class="tips">我们都是胡先生的粉丝，一起来整理他的相关内容吧，采访也算哦~</view>
   
+     <view style="margin-top: 100px">
+        <i-button type="ghost" bind:click="handleOpen2">点击分享</i-button>
+     </view>
+     
   </div>
 </template>
 
